@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>My name is Vaishnav </title>
+<script type="text/javascript">
+
+function validateform(){
+var email=document.myform.email.value;
+var password=document.myform.password.value;
+if (email==null || email==""){
+alert("email can't be blank");
+return false;
+} else(password.length<6)
+alert("password must be at least 6 characters");
+return false;
+}
+
+</script>
+<style type="text/css">
+body{background-color:skyblue;}
+
+</style>
+
+</head>
+<body>
+<h1>Hello this is to login your account </h1>
+<form name="myform" method="post" action="ABC.jsp" onsubmit="return validateform()">
+Email:<input type="text" name="Email"><br><br>
+Password:<input type="mix" name="password"><br><br>
+<input type="submit" value="register" onclick="print ok">
+</form>
+<h1><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F2072165%2Fpexels-photo-2072165.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fthank%2520you%2F&tbnid=3W9cLdI8Jwl1dM&vet=1&docid=BHxW8LP_e5mb6M&w=500&h=333&hl=en-US&source=sh%2Fx%2Fim"></h1>
+</img>
+<a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F2072165%2Fpexels-photo-2072165.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fthank%2520you%2F&tbnid=3W9cLdI8Jwl1dM&vet=1&docid=BHxW8LP_e5mb6M&w=500&h=333&hl=en-US&source=sh%2Fx%2Fim">if the image is not visible click here</a>
+</body>
+</html>
